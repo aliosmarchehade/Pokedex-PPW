@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+.main-login {
+    width: 100vw;
+    height: 100vh;
+   background: linear-gradient(to bottom, #000000, #269bb2); 
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+
+}
+
+.logoPokemas{
+    width: 40vw;
+    height: -20vh;
+}
+
+.left-login>h1 {
+
+    font-size: 2vw;
+    color: #000000;
+    width: 20vw;
+    height: 20vh;
+}
+.left-login-image {
+    width: 40vw;
+
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+ 
+    align-items: center;
+
+}
+
+.card-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient(to bottom, #000000, #4e1391);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    
+}
+
+.card-login>h1 {
+    color: #ffffff;
+    font-weight: 800;
+
+    margin: 0;
+}
+
+.textfield2 {
+    width: 100%;
+    display: block;
+    flex-direction: column-reverse;
+
+}
+.textfield2>input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #b5c6df;
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.textfield2 > label{
+    color: #f0ffffde;
+    margin-bottom: 20px;
+}
+.textfield2>input::placeholder {
+    color: #2b134b;
+}
+.textfield3{
+    width: 100%;
+    display:block;
+    /* ele inverte o contente e o aling lá*/
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.textfield3>input{  
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #b5c6df;
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.textfield3 label{
+    color: #f0ffffde;
+    margin-bottom: 20px;
+    
+   
+}
+.textfield3>input::placeholder {
+    color: #2b134b;
+}
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* ele inverte o contente e o aling lá*/
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 5px;
+    
+}
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #b5c6df;
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+.textfield>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield>input::placeholder {
+    color: #f0ffff94;
+}
+.datanasc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* ele inverte o contente e o aling lá*/
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.datanasc>input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #b5c6df;
+    color: #2b134b;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.datanasc>label{
+    color: #f0ffffde;
+    margin-bottom: 0px;
+}
+.datanasc>placeholder{
+    color: #2b134b;
+}
+
+
+.btn-login {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    transition: background 1s;
+}
+.btn-login:hover {
+    background:#6e87cd;
+}
+.btn-register:hover {
+    background:#6e87cd;
+}
+.btn-register {
+    width: 100%;
+    padding: 15px 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #FFF;
+    background: #000000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    transition: background 1s;
+}
+
+@media only screen and(max-with: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+@media only screen and(max-with: 600px) {
+    .main-login {
+        flex-direction: column;
+    }
+
+    .left-login {
+        display: none;
+    }
+
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-login-image {
+        width: 50vw;
+    }
+
+    .card-login {
+        width: 80%;
+    }
+}
+.imagemPokebola{
+
+    width: 85px;
+    height: auto;
+    cursor:pointer;
+    
+}
+.textfield>input::placeholder{
+    color:#2b134b;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #db96c6, #94ccd7);
+
+}
+.container{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #2b134b;
+    
+}
+
+.container h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 50px;
+    
+}
+
+.container a{
+    text-decoration:none;
+    background: #471383;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.container a:hover{
+    background: #752cc8;
+}
+
+.cadastro{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000, #269bb2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

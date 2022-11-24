@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+    
+    <div class="main-login">
+        
+        <div class="left-login">
+            
+            <h1>Seja Bem Vindo! Faça Seu Login, <br> Querido Treinador. </h1>
+
+            <div class="logoPokemas">
+                <img src="./images/pokemon.svg" class="left-login-image" alt="logo">
+    
+            </div>
+          
+           
+        </div>
+        
+        <div class="right-login">
+            <div class="card-login">
+              <img src ="./images/greatballoficial.png" class="imagemPokebola" onclick="TocarMusica()" />
+                 <script> 
+                function TocarMusica(){
+                    var audio1 = new Audio();
+                    audio1.src = "sounds/pokemon.mp3";
+                    audio1.play();
+                    
+                }
+            </script>  
+                <form action="./acesso.php" method="post">
+                    <div class="textfield">
+                        <label for="usuario"> Usuário</label>
+                        <input type="text" name="usuario" placeholder="Usuário">
+
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+
+                    </div>
+                    
+                   <button class="btn-login"> Login </button>
+                    <!--<button class="btn-login">Login</button>-->
+                      
+                </form>
+            
+                <form action ="cadastro.html" method="post"> 
+                
+                
+                    <button class="btn-register"> Registrar </button>
+                
+                </form>
+             
+                   
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
